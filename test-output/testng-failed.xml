@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Shopping Cart Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.test.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Launch Page Test Cases(failed)">
+    <classes>
+      <class name="com.test.testcases.ShoppingCartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyOrder"/>
+        </methods>
+      </class> <!-- com.test.testcases.ShoppingCartTest -->
+    </classes>
+  </test> <!-- Launch Page Test Cases(failed) -->
+</suite> <!-- Failed suite [Shopping Cart Automation Test Suite] -->
